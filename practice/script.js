@@ -29,5 +29,6 @@
     $progressBar.style.width = width + '%'
   }
 
+  // onScroll 함수를 callback으로 받아옴
   window.addEventListener('scroll', () => throttle(onScroll, 100))
 })()
